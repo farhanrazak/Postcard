@@ -64,7 +64,7 @@
                                     <rect key="frame" x="193" y="366" width="200" height="200"/>
                                 </variation>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Your Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rl8-0H-Yr4">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Your Name" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Rl8-0H-Yr4">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -100,7 +100,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="87" width="368" height="21"/>
+                                    <rect key="frame" x="16" y="90" width="368" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -127,6 +127,7 @@
                     <connections>
                         <outlet property="enterMessageTextField" destination="nku-LG-Dct" id="8EQ-YU-Qsi"/>
                         <outlet property="enterNameTextField" destination="Rl8-0H-Yr4" id="tLh-Mw-RsB"/>
+                        <outlet property="imagePhoto" destination="gm9-l3-FZm" id="BhM-04-C6T"/>
                         <outlet property="mailButton" destination="eae-E2-i2g" id="ALW-Fw-0ho"/>
                         <outlet property="messageLabel" destination="rn6-hS-CYY" id="haf-m8-XuK"/>
                         <outlet property="searchDisplayController" destination="1UK-iH-qqK" id="N3C-C8-QKF"/>
